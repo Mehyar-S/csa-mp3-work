@@ -25,13 +25,14 @@ public class Main {
     }
     System.out.println();
 
+    String[] candles = {"🟥 ","🟧 ","🟨 ","🟩 ","🟦 ","🟪 ", "⬜️"};
     for (int j=0; j<2; j++) {
-      for (int i:cake) {System.out.print("🟥 ");}
+      for (String square : candles) {System.out.print(square);}
       System.out.println();
     }
 
     for (int j=0; j<5; j++) {
-      for (int i=0; i<10; i++) {System.out.print("⬜");}
+      for (int i=0; i<10; i++) {System.out.print("🟫");}
       System.out.println();
     }
 
