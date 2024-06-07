@@ -3,3 +3,4 @@
 
 ### In this repository:
 - My solutions to the 2024 FRQS
+- Binary Cake
